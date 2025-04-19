@@ -35,7 +35,7 @@ class VoiceControlApp:
 
         # Welcome Voice
         pygame.mixer.init()
-        pygame.mixer.music.load("Main_Project\\voice.mp3")
+        pygame.mixer.music.load("voice.mp3")
         pygame.mixer.music.play()
 
         # Title 
@@ -61,7 +61,7 @@ class VoiceControlApp:
 
         self.running = False
         self.video_running = True
-        self.video_path = "Main_Project\\Robot.mp4"
+        self.video_path = "Robot.mp4"
         self.cap = cv2.VideoCapture(self.video_path)
         self.update_video()
 

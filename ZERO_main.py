@@ -23,11 +23,11 @@ import help
 
 # ✅ Set the model path relative to the script location
 BASE_PATH = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_PATH, "D:\Graduation-Pro\ZEROv1.0.1\ZERO-model-small-en")
+MODEL_PATH = os.path.join(BASE_PATH, "ADD MODEL PATH HERE!")
 
 if not os.path.exists(MODEL_PATH):
     print(f"❌ Model not found at: {MODEL_PATH}")
-    print("Please ensure the 'ZERO-model-small-en' folder is in the same directory as this application.")
+    print("Please ensure the 'vosk-model-small-en' folder is in the same directory as this application.")
     sys.exit(1)
 
 model = vosk.Model(MODEL_PATH)

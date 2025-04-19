@@ -27,6 +27,9 @@ Create folder, Delete folder, Open downloads, Open documents
 📌 System Control:  
 Lock screen, Shut down, Restart, Sleep, Take screenshot, Toggle fullscreen  
 
+📌 Greating:
+How are you, What is your name, Who Developed you, Say
+
 📌 Exit:  
 Say 'exit' to close the program."""
 

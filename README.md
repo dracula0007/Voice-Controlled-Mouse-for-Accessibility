@@ -2,6 +2,16 @@
 
 A Python-based voice-controlled mouse system designed to assist individuals with arm disabilities. This project leverages speech recognition and an intuitive graphical interface to perform common mouse and system tasks through voice commands.
 
+<p align="center">
+  <img src="Images/GUI.png" width="400" alt="GUI"/>
+  <img src="Images/Live Recognition.png" width="400" alt="Live"/>
+</p>
+
+<p align="center">
+  <img src="Images/Code Run.png" width="400" alt="Code"/>
+  <img src="Images/script for run.png" width="400" alt="run script"/>
+</p>
+
 ## 📌 Features
 
 - 🎤 **Real-time voice command recognition**
